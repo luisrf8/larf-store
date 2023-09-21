@@ -26,15 +26,15 @@ const Header = ({ loginModal,
           to="/"
           className="logo-styling flex-container flex-row txt-center txt-white"
         >
-          <img
+          {/* <img
             width="50"
             height="50"
             className="logo"
             src={logo}
             alt="Pizza Time logo"
-          />
+          /> */}
           <h1>
-            Pizza <span>Time</span>
+            {/* LARF */}
           </h1>
         </NavLink>
         <ul className={`navigation-menu flex-row pop-font ${isModalActive ? 'active' : ''}`}>

@@ -12,7 +12,7 @@ const WelcomeSection = () => {
   return (
     <article className="welcome-section" >
       <section className="section-2-info flex-container flex-column txt-center pop-font">
-        <motion.div
+        {/* <motion.div
           className='pizza-motion'
           initial={{ opacity: 0, translateX: -200 }}
           whileInView={{
@@ -23,8 +23,8 @@ const WelcomeSection = () => {
           transition={{ duration: 3 }}
         >
           <img src={PizzaTwo} alt="" className=" pizza-two" />
-        </motion.div>
-        <motion.div
+        </motion.div> */}
+        {/* <motion.div
           className='pizza-motion'
           initial={{ opacity: 0, translateX: 200 }}
           whileInView={{
@@ -35,9 +35,9 @@ const WelcomeSection = () => {
           transition={{ duration: 4 }}
         >
           <img src={PizzaOne} alt="" className=" pizza-one" />
-        </motion.div>
+        </motion.div> */}
         <h2 className="txt-white">
-          Welcome to <span>Pizza Time</span> restaurant
+          Welcome to 
         </h2>
         <p>
           Founded in 1982 we bring pizza slice by slice to the next level!
@@ -51,13 +51,13 @@ const WelcomeSection = () => {
           because you are the one who makes us special!
         </p>
       </section>
-      <LazyLoadImage
+      {/* <LazyLoadImage
         className="section-two-img"
         src={img375}
         srcSet={`${img1440} 1440w, ${img700} 700w, ${img375} 375w`}
         sizes="(min-width: 1440px) 1440px, (min-width: 700px) 700px, 375px"
         alt="Pizza Time restaurant interior with people at the tabel and the staff serving the customers"
-      />
+      /> */}
     </article>
   )
 }
